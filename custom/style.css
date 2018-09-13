@@ -1,0 +1,100 @@
+/* CSS Document - Nav */
+nav[data-controller="core.front.core.navBar"] {
+  flex-grow: 1; }
+  nav[data-controller="core.front.core.navBar"] .ipsNavBar_primary {
+    position: inherit !important; }
+    nav[data-controller="core.front.core.navBar"] .ipsNavBar_primary > ul > li > a {
+      padding-top: 12px; }
+  nav[data-controller="core.front.core.navBar"] li[data-role="navBarItem"].ipsNavBar_active ul.ipsNavBar_secondary {
+    display: flex !important;
+    top: 51px;
+    padding-left: 50px;
+    background: white; }
+  nav[data-controller="core.front.core.navBar"] li[data-role="navBarItem"]:hover ul.ipsNavBar_secondary x {
+    display: flex !important;
+    top: 40px; }
+
+#ipsLayout_body {
+  margin-top: 92px; }
+
+#ipsLayout_header {
+  position: fixed !important;
+  top: 0;
+  width: 100%;
+  z-index: 3100;
+  border-bottom: 2px solid black;
+  border-bottom: 1px solid #f1f1f1; }
+  #ipsLayout_header nav {
+    background: transparent; }
+  #ipsLayout_header header {
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 !important; }
+  #ipsLayout_header #elUserNav {
+    position: relative;
+    margin-left: auto;
+    right: 0;
+    top: 0;
+    margin-right: 40px !important; }
+    #ipsLayout_header #elUserNav > li > a {
+      color: white; }
+
+#elLogo {
+  height: 100%;
+  margin-right: 2%;
+  padding: 9px 0 10px 25px !important;
+  height: 100%;
+  margin-right: 2%;
+  padding: 4px 0 18px 65px !important; }
+  #elLogo img {
+    max-width: none !important;
+    width: 180px !important;
+    padding: 0 !important; }
+  #elLogo img {
+    max-width: none !important;
+    width: 160px !important;
+    padding: 0 !important; }
+
+.ipsNavBar_primary {
+  flex-grow: 1;
+  padding-bottom: 0;
+  top: 0; }
+  .ipsNavBar_primary > ul:before {
+    display: none !important; }
+  .ipsNavBar_primary > ul > li > a {
+    letter-spacing: 1.5px; }
+  .ipsNavBar_primary > ul > li.ipsNavBar_active > a {
+    color: #ea5757 !important;
+    color: black !important;
+    color: white !important;
+    font-weight: bold;
+    text-shadow: 1px 0px 0px black;
+    background: rgba(245, 245, 245, 0.04); }
+  .ipsNavBar_primary ul.ipsNavBar_secondary {
+    display: none !important;
+    border-bottom: 1px solid #8080802b; }
+
+body.scrolled #ipsLayout_header {
+  border-bottom: solid 1px #f5f4f4 !important;
+  -webkit-box-shadow: 0px 0px 17px -5px rgba(0, 0, 0, 0.36);
+  -moz-box-shadow: 0px 0px 17px -5px rgba(0, 0, 0, 0.36);
+  box-shadow: 0px 0px 17px -5px rgba(0, 0, 0, 0.36); }
+
+#cLightbox {
+  top: 0; }
+
+/*
+#ipsLayout_header header{
+	
+	background-color: #aab0bd !important;
+	background-color: #353535 !important;
+	
+}
+
+.ipsNavBar_primary>ul>li>a , #ipsLayout_header > li > a {
+    
+    color: rgba(255,255,255,.7) !important;
+}
+ */
